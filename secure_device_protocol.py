@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Template and Set Up was provided by the TA of CPSC 418, 
+Implementation by Oscar Campos.
 
 """
 ##### IMPORTS
@@ -23,14 +24,14 @@ from typing import Any, Callable, Iterator, Mapping, Optional, Union
 from os import urandom
 
 # these functions carry over from the prior assignments
-from encrypt_decrypt__SOLUTION import xor, left_encode, pseudoCSHAKE256
-from encrypt_decrypt__SOLUTION import MAC_then_encrypt, decrypt_and_verify
-from basic_auth_and_send__SOLUTION import ClientParameters, FastCSPRNG, PrimeChecker, ServerParameters
-from basic_auth_and_send__SOLUTION import split_ip_port, int_to_bytes, bytes_to_int, i2b, b2i
-from basic_auth_and_send__SOLUTION import create_socket, send, receive, receive_message, calc_k
-from basic_auth_and_send__SOLUTION import create_message, verify_message, safe_prime, prim_root
-from basic_auth_and_send__SOLUTION import client_handshake, client_register, server_register
-from basic_auth_and_send__SOLUTION import client_key, server_key, client_file, server_file
+from encrypt_decrypt import xor, left_encode, pseudoCSHAKE256
+from encrypt_decrypt import MAC_then_encrypt, decrypt_and_verify
+from basic_auth_and_send import ClientParameters, FastCSPRNG, PrimeChecker, ServerParameters
+from basic_auth_and_send import split_ip_port, int_to_bytes, bytes_to_int, i2b, b2i
+from basic_auth_and_send import create_socket, send, receive, receive_message, calc_k
+from basic_auth_and_send import create_message, verify_message, safe_prime, prim_root
+from basic_auth_and_send import client_handshake, client_register, server_register
+from basic_auth_and_send import client_key, server_key, client_file, server_file
 
 """
 from Crypto.Cipher import AES
