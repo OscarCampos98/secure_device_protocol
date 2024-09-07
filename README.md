@@ -1,13 +1,13 @@
 # secure_device_protocol
-Secure Device Communication Protocol README
 
-Introduction
-    This project implements the Secure Device Communication Protocol for secure communication between a hardware device and an operating system (OS) using Python.
-    The protocol simulates socket communication, cryptographic functions, and secure message exchange. This assignment was designed to simulate real-world challenges 
-    in hardware security, such as key management, firmware updates, and encrypted data transfer between the device and OS. The project leverages Python to simulate the 
+
+# Introduction
+    This project implements the Secure Device Communication Protocol for secure communication between a hardware device and       an operating system (OS) using Python.
+    The protocol simulates socket communication, cryptographic functions, and secure message exchange. This assignment was        designed to simulate real-world challenges 
+    in hardware security, such as key management, firmware updates, and encrypted data transfer between the device and OS.        The project leverages Python to simulate the 
     secure device, with a focus on encryption, signing, key negotiation, and firmware validation.
 
-File Descriptions
+# File Descriptions
     secure_device_protocol.py:
         This is the core file for the implementation of the secure communication protocol. It defines the key classes and functions responsible for cryptographic operations,
         message exchange, and firmware validation.
