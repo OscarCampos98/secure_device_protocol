@@ -13,8 +13,8 @@ reference_device.json.gz: A compressed JSON file that contains the reference ima
 
 encrypt_decrypt.py and basic_auth_and_send.py: 
     These files are use to import functions used to handle encryption, decryption, authentication, and data transfer,            more on this file in their corresponding repository. Note, this files implamentations were by the TA of the                  Introduction to Cryptography course, my implamentation can be found here: 
-    [My Repository](https://github.com/OscarCampos98/encrypt-decrypt) 
-    [My Repository](https://github.com/OscarCampos98/basic-authenticate-send) 
+    [encrypt and decrypt](https://github.com/OscarCampos98/encrypt-decrypt) &  
+    [basic authenticate and send](https://github.com/OscarCampos98/basic-authenticate-send) 
     The reason for using the TA implamentation is because it out performed mine by a couple of minutes and it is due      to     how some cryptographic varieabled were calculated.      
 
 # Environment Setup
