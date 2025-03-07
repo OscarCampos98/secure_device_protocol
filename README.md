@@ -1,4 +1,4 @@
-# Secure_Device_Communcation_protocol
+# Secure_Device_Communcation_Protocol
 
 
 # Introduction
